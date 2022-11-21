@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\x64\Release\Health_lab.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls>
+    <SatelliteDll>
+      <FullPath>C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\Health_lab\x64\Release\ja-JP\Health_lab.resources.dll</FullPath>
+    </SatelliteDll>
+  </SatelliteDlls>
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,15 @@
+﻿  MyForm.cpp
+C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\Health_lab\baseEngine.h(71,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\Health_lab\COM_controller.h(32,37): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\Health_lab\COM_controller.h(119,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\Health_lab\COM_controller.h(125,31): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\Health_lab\COM_controller.h(151,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\Health_lab\MyForm.h(1620,26): warning C4244: аргумент: преобразование "wchar_t" в "_Elem", возможна потеря данных
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\Health_lab\MyForm.h(1653,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\Health_lab\MyForm.cpp(7,33): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\Health_lab\COM_controller.h(42): warning C4715: _AsyncWriteFile: значение возвращается не при всех путях выполнения
+LINK : fatal error LNK1104: не удается открыть файл "C:\Users\ASUS\OneDrive\Рабочий стол\Health-lab-main\Health_lab\x64\Debug\Health_lab.exe"
