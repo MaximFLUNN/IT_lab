@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\BLE_device">
+      <UniqueIdentifier>{c9319898-e0f1-46ed-a68e-35916f861a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\BLE_device">
+      <UniqueIdentifier>{f45c78ce-f4ea-41c1-a5ab-b40dae9a7904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\BLE_func">
+      <UniqueIdentifier>{4ee80efc-b83d-48b0-a8a3-50c2e97d71da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="getCOMS.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="COM_controller.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleDevice.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleDeviceContext.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleDeviceEnumerator.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleDeviceInfo.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleException.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleFunctions.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleGattCharacteristic.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleGattCharacteristicValue.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleGattDescriptor.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleGattDescriptorValue.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleGattNotificationData.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\BleGattService.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\CallbackContext.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\HandleWrapper.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+    <ClCompile Include="BLE_device\Utility.cpp">
+      <Filter>Исходные файлы\BLE_device</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="COM_controller.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherFunc.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleDevice.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleDeviceContext.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleDeviceEnumerator.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleDeviceInfo.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleException.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleFunctions.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleGattCharacteristic.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleGattCharacteristicValue.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleGattDescriptor.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleGattDescriptorValue.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleGattNotificationData.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleGattService.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\BleGattServices.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\CallbackContext.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\CallbackScope.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\HandleWrapper.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\resource.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\targetver.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_device\Utility.h">
+      <Filter>Файлы заголовков\BLE_device</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_func\targetver.h">
+      <Filter>Файлы заголовков\BLE_func</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_func\WinBleTest.h">
+      <Filter>Файлы заголовков\BLE_func</Filter>
+    </ClInclude>
+    <ClInclude Include="BLE_controller.h">
+      <Filter>Файлы заголовков\BLE_func</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
